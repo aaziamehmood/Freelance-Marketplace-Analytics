@@ -1,10 +1,7 @@
 # Freelance Marketplace Analytics
 
-A data analytics project built to explore the Upwork gig economy — what skills are in demand, which categories pay well, and where the market is overcrowded.
+A data analytics project built to explore the Upwork gig economy: what skills are in demand, which categories pay well, and where the market is overcrowded.
 
-Built using **PostgreSQL**, **Power BI**, and **DAX** as a portfolio project for internship applications.
-
----
 
 ## What This Project Is About
 
@@ -56,7 +53,7 @@ I took a dataset of 53,000+ Upwork job postings from 2024 and tried to answer fi
 
 ## How the Data Was Cleaned
 
-The raw dataset had category and skills buried inside a long description text field — not in separate columns. I extracted them using SQL string functions, cast all columns to proper types, and created a unified `avg_rate` column that works for both hourly and fixed price jobs.
+The raw dataset had category and skills buried inside a long description text field, not in separate columns. I extracted them using SQL string functions, cast all columns to proper types, and created a unified `avg_rate` column that works for both hourly and fixed price jobs.
 
 Raw table → 53,058 rows  
 Clean table → 52,546 rows
@@ -67,7 +64,7 @@ Clean table → 52,546 rows
 
 | File | What it is |
 |---|---|
-| `freelance_analytics.sql` | All SQL — table creation, cleaning, analysis queries |
+| `freelance_analytics.sql` | All SQL - table creation, cleaning, analysis queries |
 | `page1_skill_demand.png` | Dashboard Page 1 screenshot |
 | `page2_earnings.png` | Dashboard Page 2 screenshot |
 | `page3_market_gap.png` | Dashboard Page 3 screenshot |
