@@ -17,13 +17,13 @@ I took a dataset of 53,000+ Upwork job postings from 2024 and tried to answer fi
 
 ## Dashboard Preview
 
-**Page 1 — Skill & Category Demand**
+**Page 1: Skill & Category Demand**
 ![Page 1](page1_skill_demand.png)
 
-**Page 2 — Earnings Analysis**
+**Page 2: Earnings Analysis**
 ![Page 2](page2_earnings.png)
 
-**Page 3 — Market Gap & Geography**
+**Page 3: Market Gap & Geography**
 ![Page 3](page3_market_gap.png)
 
 ---
